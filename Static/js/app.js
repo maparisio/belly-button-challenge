@@ -3,12 +3,8 @@ const url = "https://static.bc-edx.com/data/dl-1-2/m14/lms/starter/samples.json"
 
 // Fetch data and console log it
 d3.json(url).then(function(data) {
-
-  // Process data
-}, function(error) {
-  console.error("Error fetching data:", error);
-  // Handle error (e.g., display an error message to the user)
-});
+    console.log(data);
+})
 
 // Create bar chart
     function bar_chart(sample){
